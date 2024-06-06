@@ -1,0 +1,31 @@
+body main p {
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+a,h1,button {
+    text-align: center;
+}
+.navbar-items {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.flexbox {
+    display: inline-flex;
+    flex-direction: row;
+}
+.button {
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    border-radius: 7px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.button:hover {
+    background-color: #0056b3;
+}
